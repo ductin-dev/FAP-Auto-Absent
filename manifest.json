@@ -1,0 +1,14 @@
+{
+   "name": "FAP Auto Absent",
+   "manifest_version": 2,
+   "version": "0.0.1",
+   "description": "Extension for absent all the course",
+   "content_scripts": [{
+    "matches": [
+      "http://fap.fpt.edu.vn/Report/ViewAttendstudent.aspx?id=*&campus=*&term=*"
+    ],
+      "js": [
+         "content.js"
+      ]
+   }]
+}
